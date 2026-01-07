@@ -1,6 +1,6 @@
-let IS_PROD = false;
+let IS_PROD = true;
 const server = IS_PROD ?
-    "https://videochatapplicationbackendpart2.onrender.com" :
+    "https://video-chatting-application-backend.onrender.com" :
 
     "http://localhost:8000"
 
